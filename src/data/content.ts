@@ -1,0 +1,341 @@
+// ============================================================================
+// HARINI'S 20th BIRTHDAY MAGAZINE — CONTENT FILE
+// ----------------------------------------------------------------------------
+// This is the ONLY file you need to touch to update text, captions, dates,
+// and photo references. Every section of the website pulls from here.
+//
+// 📸 HOW TO ADD YOUR OWN PHOTOS:
+// 1. Drop your image files into:  /public/photos/
+// 2. Reference them below as:    "/photos/your-file-name.jpg"
+// 3. Keep file names simple (no spaces) — e.g. "kindergarten-1.jpg"
+// 4. Recommended sizes: portrait photos ~1000x1300px, landscape ~1300x1000px,
+//    square ~1200x1200px. JPG or PNG both work.
+//
+// Every place that says `src: "/photos/..."` is a PHOTO PLACEHOLDER.
+// Just swap the file name — nothing else needs to change.
+// ============================================================================
+
+export const siteMeta = {
+  name: "Harini",
+  age: 20,
+  issueLine: "VOL. I — NO. 20",
+  tagline: "THE TWENTY ISSUE",
+  bestFriendName: "Me", // change to your own name if you want it printed
+};
+
+// ----------------------------------------------------------------------------
+// SPREAD 1 — COVER
+// Fake headlines that wrap around the big cover photo, like a real magazine.
+// ----------------------------------------------------------------------------
+export const coverHeadlines = {
+  topLeft: "EXCLUSIVE: THE\nORAL HISTORY OF\nA CHAOTIC ICON",
+  topRight: "20 LOOKS,\n20 YEARS,\n0 CHILL",
+  bottomLeft: "“SHE NEVER\nWALKED IN—\nSHE ENTERED.”",
+  bottomRight: "INSIDE PAGES:\nTHE LORE, THE AWARDS,\nTHE YAP SESSIONS",
+  coverLine: "PLUS: 47 REASONS WE HAVEN'T REPLACED HER (YET)",
+  // 🖼️ PHOTO PLACEHOLDER — main cover cutout photo of Harini.
+  // Best results: a fun, full-body or three-quarter shot with plain-ish
+  // background so it reads like a magazine cutout.
+  coverPhoto: "/photos/cover-main.jpg",
+};
+
+// ----------------------------------------------------------------------------
+// SPREAD 2 — EDITOR'S LETTER
+// ----------------------------------------------------------------------------
+export const editorsLetter = {
+  kicker: "FROM THE DESK OF YOUR BEST FRIEND",
+  headline: "Dear Harini, Welcome to Twenty",
+  body: [
+    "Putting this issue together meant scrolling through eleven years of camera rolls, several group chats that should be studied by historians, and at least one voice note that was just you laughing for forty seconds straight.",
+    "You have never once entered a room quietly. You have never once let a plan stay boring. You have never once let me feel like I was doing this whole 'growing up' thing alone — and somehow, twenty years later, you still text like it's an emergency even when it's about lunch.",
+    "This issue is my attempt to put all of that on paper before it lives only in our group chat. Turn the page — chaos ahead, as always.",
+  ],
+  // 🖼️ PHOTO PLACEHOLDER — small candid photo near the editor's letter
+  signaturePhoto: "/photos/editor-candid.jpg",
+  handwrittenNote: "ok but PLEASE look at page 14 first 😭 — love you forever, idiot",
+};
+
+// ----------------------------------------------------------------------------
+// SPREAD 3 — THE LORE (friendship timeline)
+// Add/remove objects freely — the timeline re-renders automatically.
+// ----------------------------------------------------------------------------
+export const loreTimeline = [
+  {
+    year: "2010",
+    title: "Kindergarten Enemies-to-Friends Arc",
+    text: "Met in kindergarten. You stole my crayon. I let you keep it. The rest is history.",
+    photo: "/photos/lore-2010.jpg", // 🖼️ PHOTO PLACEHOLDER
+  },
+  {
+    year: "2013",
+    title: "Primary School Besties, Official",
+    text: "Matching friendship bracelets, matching pencil cases, one shared brain cell.",
+    photo: "/photos/lore-2013.jpg", // 🖼️ PHOTO PLACEHOLDER
+  },
+  {
+    year: "2016",
+    title: "The Sleepover Era Begins",
+    text: "We discovered we could stay up until 3am. Our parents discovered this too, eventually.",
+    photo: "/photos/lore-2016.jpg", // 🖼️ PHOTO PLACEHOLDER
+  },
+  {
+    year: "2019",
+    title: "The Group Chat Is Born",
+    text: "Renamed approximately 400 times. Current name classified.",
+    photo: "/photos/lore-2019.jpg", // 🖼️ PHOTO PLACEHOLDER
+  },
+  {
+    year: "2022",
+    title: "First 'Adult' Trip",
+    text: "No parents. Several wrong turns. The best three days of that entire year.",
+    photo: "/photos/lore-2022.jpg", // 🖼️ PHOTO PLACEHOLDER
+  },
+  {
+    year: "2024",
+    title: "The Era of Spontaneous Everything",
+    text: "You started planning trips with four hours' notice. I started saying yes anyway.",
+    photo: "/photos/lore-2024.jpg", // 🖼️ PHOTO PLACEHOLDER
+  },
+  {
+    year: "2026",
+    title: "Twenty. Twenty!! TWENTY!!!",
+    text: "Somehow here. Still chaotic. Still my favourite person to text at 1am.",
+    photo: "/photos/lore-2026.jpg", // 🖼️ PHOTO PLACEHOLDER
+  },
+];
+
+// ----------------------------------------------------------------------------
+// SPREADS 4–8 — PHOTO DIARY
+// Add as many photos as you want to each spread's array — layouts will
+// keep working with more or fewer photos. Each item needs at minimum
+// a `src` and a `caption`. `rotate` and `tape` are optional styling hints.
+// ----------------------------------------------------------------------------
+
+// Spread 4 — Polaroid wall
+export const diaryPolaroids = [
+  { src: "/photos/diary-01.jpg", caption: "the OG photo booth era", rotate: -3, tape: "rouge" },
+  { src: "/photos/diary-02.jpg", caption: "she said it was 'just one drink'", rotate: 2, tape: "moss" },
+  { src: "/photos/diary-03.jpg", caption: "field trip felony of some kind", rotate: -1, tape: "dust" },
+  { src: "/photos/diary-04.jpg", caption: "10/10 chaos, no regrets", rotate: 4, tape: "gold" },
+  { src: "/photos/diary-05.jpg", caption: "main character walking away from an explosion (metaphorical)", rotate: -2, tape: "denim" },
+  { src: "/photos/diary-06.jpg", caption: "we do NOT talk about this night", rotate: 3, tape: "rouge" },
+  { src: "/photos/diary-07.jpg", caption: "the iconic birthday dinner of 2023", rotate: -4, tape: "moss" },
+  { src: "/photos/diary-08.jpg", caption: "she's the main character, I'm just narrating", rotate: 1, tape: "dust" },
+]; // 🖼️ Add more objects here for more polaroids — grid wraps automatically.
+
+// Spread 5 — Film strip rolls (group photos in horizontal strips)
+export const diaryFilmStrips = [
+  {
+    rollTitle: "ROLL 01 — SUMMER, UNDATED",
+    frames: [
+      "/photos/film-01-1.jpg",
+      "/photos/film-01-2.jpg",
+      "/photos/film-01-3.jpg",
+      "/photos/film-01-4.jpg",
+    ],
+  },
+  {
+    rollTitle: "ROLL 02 — THE TRIP WE DON'T DISCUSS",
+    frames: [
+      "/photos/film-02-1.jpg",
+      "/photos/film-02-2.jpg",
+      "/photos/film-02-3.jpg",
+      "/photos/film-02-4.jpg",
+    ],
+  },
+  {
+    rollTitle: "ROLL 03 — BIRTHDAYS, A RETROSPECTIVE",
+    frames: [
+      "/photos/film-03-1.jpg",
+      "/photos/film-03-2.jpg",
+      "/photos/film-03-3.jpg",
+      "/photos/film-03-4.jpg",
+    ],
+  },
+]; // 🖼️ Add a new object for a new "roll" of film, or add/remove frames.
+
+// Spread 6 — Layered collage (editorial cluster)
+export const diaryCollage = [
+  { src: "/photos/collage-01.jpg", size: "lg", rotate: -2, top: "4%", left: "6%" },
+  { src: "/photos/collage-02.jpg", size: "sm", rotate: 4, top: "2%", left: "52%" },
+  { src: "/photos/collage-03.jpg", size: "md", rotate: -4, top: "32%", left: "30%" },
+  { src: "/photos/collage-04.jpg", size: "sm", rotate: 6, top: "8%", left: "78%" },
+  { src: "/photos/collage-05.jpg", size: "md", rotate: 3, top: "55%", left: "4%" },
+  { src: "/photos/collage-06.jpg", size: "lg", rotate: 1, top: "48%", left: "58%" },
+  { src: "/photos/collage-07.jpg", size: "sm", rotate: -6, top: "75%", left: "20%" },
+  { src: "/photos/collage-08.jpg", size: "sm", rotate: 5, top: "78%", left: "70%" },
+]; // 🖼️ size: "sm" | "md" | "lg" — top/left are % positions inside the collage canvas.
+
+// Spread 7 — Caption-led editorial grid (looks like a fashion spread)
+export const diaryEditorialGrid = [
+  { src: "/photos/editorial-01.jpg", caption: "LOOK 01 — campus chaos, accessorised", credit: "candid, unposed, iconic anyway" },
+  { src: "/photos/editorial-02.jpg", caption: "LOOK 02 — birthday dinner, take three", credit: "she changed outfits twice in the car" },
+  { src: "/photos/editorial-03.jpg", caption: "LOOK 03 — 6am airport, still serving", credit: "no sleep, full glam, unclear how" },
+  { src: "/photos/editorial-04.jpg", caption: "LOOK 04 — 'casual' grocery run", credit: "there is no such thing as casual for her" },
+  { src: "/photos/editorial-05.jpg", caption: "LOOK 05 — group project presentation fit", credit: "carried the entire team, in heels" },
+  { src: "/photos/editorial-06.jpg", caption: "LOOK 06 — rooftop, golden hour, of course", credit: "main character lighting, every time" },
+]; // 🖼️ Add as many "looks" as you want — grid re-flows automatically.
+
+// Spread 8 — Scrapbook freeform (stickers, notes, mixed photo sizes)
+export const diaryScrapbook = [
+  { src: "/photos/scrap-01.jpg", caption: "exhibit A", rotate: -3 },
+  { src: "/photos/scrap-02.jpg", caption: "exhibit B", rotate: 2 },
+  { src: "/photos/scrap-03.jpg", caption: "the evidence keeps coming", rotate: -1 },
+  { src: "/photos/scrap-04.jpg", caption: "your honor, I rest my case", rotate: 4 },
+  { src: "/photos/scrap-05.jpg", caption: "unrelated but iconic", rotate: -4 },
+  { src: "/photos/scrap-06.jpg", caption: "filed under: chaos", rotate: 3 },
+]; // 🖼️ Freeform scrapbook strip — add more for a longer scroll.
+
+// ----------------------------------------------------------------------------
+// SPREAD 9 — 20 THINGS WE LOVE ABOUT HARINI
+// Keep this list at exactly 20 items if you want the "20 for 20" framing,
+// but feel free to add or cut — the numbering updates itself.
+// ----------------------------------------------------------------------------
+export const twentyThings = [
+  "The way you say 'okay but hear me out' before every unhinged plan.",
+  "You remember everyone's order. Every single time.",
+  "Your group chat voice notes are 40% information, 60% sound effects.",
+  "You've never met a dance floor you didn't immediately claim.",
+  "You cry at commercials but somehow stay calm in actual emergencies.",
+  "Your read of any room, any vibe, any person, in under ten seconds.",
+  "You once planned an entire trip in the time it took me to choose a font.",
+  "You give the best unsolicited advice — and it's always right, annoyingly.",
+  "Your laugh is the loudest one in any room, and we wouldn't change that.",
+  "You text 'are you up' at 1am and somehow it's never actually urgent.",
+  "You've worn the same energy to a funeral and a foam party. Respect.",
+  "You make ordinary Tuesdays feel like events.",
+  "You remember birthdays better than the actual birthday person.",
+  "Your fashion sense has never once asked for permission.",
+  "You apologize badly but you show up perfectly.",
+  "You've never let me sit alone with a bad feeling for too long.",
+  "You turn waiting rooms into stand-up comedy sets.",
+  "Your playlists are unhinged and somehow always correct.",
+  "You hype up strangers like they're your best friend too.",
+  "Twenty years of knowing you and you still surprise me weekly.",
+];
+
+// ----------------------------------------------------------------------------
+// SPREAD 10 — THE HARINI AWARDS
+// ----------------------------------------------------------------------------
+export const harinAwards = [
+  {
+    title: "Most Likely To Start Chaos",
+    blurb: "Walked into the room and the room never recovered.",
+  },
+  {
+    title: "CEO of Last-Minute Plans",
+    blurb: "Founded, funded, and fully executed at 11:47pm.",
+  },
+  {
+    title: "Professional Yapper, Lifetime Achievement",
+    blurb: "Forty-minute story. Zero regrets. Worth every second.",
+  },
+  {
+    title: "Main Character Energy Award",
+    blurb: "Everyone else is just supporting cast and she knows it.",
+  },
+  {
+    title: "Most Likely To Cry Laughing In Public",
+    blurb: "No context needed. We've all been there with her.",
+  },
+  {
+    title: "Best Use Of A Group Chat",
+    blurb: "Single-handedly kept it alive through three timezone changes.",
+  },
+  {
+    title: "Most Convincing Last-Minute Apology",
+    blurb: "Still don't know how she talks her way out of everything.",
+  },
+  {
+    title: "Hall of Fame: Showing Up Anyway",
+    blurb: "Tired, late, underslept — never once actually absent.",
+  },
+];
+
+// ----------------------------------------------------------------------------
+// SPREAD 11 — FRIENDSHIP INTERVIEW (magazine Q&A)
+// ----------------------------------------------------------------------------
+export const interview = {
+  intro: "We sat down with Harini's best friend of twenty years for an exclusive, mostly unserious interview.",
+  qa: [
+    {
+      q: "How did you two meet?",
+      a: "Kindergarten. She took my crayon. I decided that meant we were destined to be friends, and I have not been wrong about anything since.",
+    },
+    {
+      q: "One word to describe Harini?",
+      a: "Unpredictable. In the best, most exhausting, most loveable way.",
+    },
+    {
+      q: "What's a memory you'll never tell anyone else?",
+      a: "Absolutely not. Some lore stays in the vault.",
+    },
+    {
+      q: "Best trip you've taken together?",
+      a: "The one with four hours' planning notice and zero regrets. You know the one.",
+    },
+    {
+      q: "What's Harini like at 2am?",
+      a: "Somehow more coherent than most people at 2pm. Concerning, honestly.",
+    },
+    {
+      q: "What do you hope for her in this new decade?",
+      a: "Everything she's chasing, and the chaos to keep chasing it her own way.",
+    },
+  ],
+};
+
+// ----------------------------------------------------------------------------
+// SPREAD 12 — BIRTHDAY MESSAGES (postcards from friends)
+// Add one object per friend message. `stamp` is optional decorative text.
+// ----------------------------------------------------------------------------
+export const birthdayMessages = [
+  {
+    from: "Me",
+    message: "Twenty years of you and I still laugh the hardest with you. Here's to the next twenty being even louder.",
+    photo: "/photos/postcard-01.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
+    stamp: "AIRMAIL — BEST FRIEND CLASS",
+  },
+  {
+    from: "Friend Name",
+    message: "Happiest birthday to the loudest, funniest, most main-character person I know. Never change.",
+    photo: "/photos/postcard-02.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
+    stamp: "FROM THE GROUP CHAT",
+  },
+  {
+    from: "Friend Name",
+    message: "You make every plan better just by being there. Happy 20th — go be chaotic, you earned it.",
+    photo: "/photos/postcard-03.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
+    stamp: "HAND DELIVERED, NO STAMP NEEDED",
+  },
+  {
+    from: "Friend Name",
+    message: "Twenty looks good on you. So does literally everything else, annoyingly.",
+    photo: "/photos/postcard-04.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
+    stamp: "SPECIAL DELIVERY",
+  },
+]; // 🖼️ Edit `from` and `message`, replace photos, or duplicate the block for more.
+
+// ----------------------------------------------------------------------------
+// SPREAD 13 — MEMORY WALL (large freeform scrapbook collage)
+// A bigger pool of photos than the diary spreads — this is the "everything"
+// wall. Mix in duplicates from earlier spreads or all-new ones.
+// ----------------------------------------------------------------------------
+export const memoryWall = [
+  "/photos/wall-01.jpg", "/photos/wall-02.jpg", "/photos/wall-03.jpg", "/photos/wall-04.jpg",
+  "/photos/wall-05.jpg", "/photos/wall-06.jpg", "/photos/wall-07.jpg", "/photos/wall-08.jpg",
+  "/photos/wall-09.jpg", "/photos/wall-10.jpg", "/photos/wall-11.jpg", "/photos/wall-12.jpg",
+  "/photos/wall-13.jpg", "/photos/wall-14.jpg", "/photos/wall-15.jpg", "/photos/wall-16.jpg",
+  "/photos/wall-17.jpg", "/photos/wall-18.jpg", "/photos/wall-19.jpg", "/photos/wall-20.jpg",
+]; // 🖼️ PHOTO PLACEHOLDERS — add/remove freely, the wall grid adjusts automatically.
+
+// ----------------------------------------------------------------------------
+// SPREAD 14 — BACK COVER
+// ----------------------------------------------------------------------------
+export const backCover = {
+  // 🖼️ PHOTO PLACEHOLDER — final elegant closing photo
+  photo: "/photos/back-cover.jpg",
+  closingLine: "To twenty years of you, and every chaotic, loud, unforgettable year still ahead.",
+  signOff: "Happy 20th, Harini. I love you. Now go be insufferable about it.",
+  issueFooter: "END OF ISSUE — SEE YOU NEXT YEAR FOR VOL. II",
+};

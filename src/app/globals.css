@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Playfair Display", "Georgia", serif;
+  --font-body: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --font-hand: "Caveat", cursive;
+  --font-mono: "Space Mono", monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  background-color: #f7f1e6;
+  color: #1a1714;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---------- Paper grain overlay (applied per-spread) ---------- */
+.paper-grain {
+  position: relative;
+}
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url("/textures/grain.svg");
+  background-size: 420px 420px;
+  z-index: 1;
+}
+
+/* ---------- Halftone dot field (Y2K / editorial accent) ---------- */
+.halftone {
+  background-image: radial-gradient(circle, rgba(26, 23, 20, 0.35) 1px, transparent 1.4px);
+  background-size: 7px 7px;
+}
+.halftone-rouge {
+  background-image: radial-gradient(circle, rgba(200, 56, 31, 0.55) 1.4px, transparent 1.8px);
+  background-size: 8px 8px;
+}
+
+/* ---------- Washi tape strips ---------- */
+.tape {
+  position: absolute;
+  height: 26px;
+  opacity: 0.88;
+  box-shadow: 0 1px 2px rgba(26, 23, 20, 0.2);
+}
+.tape::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.18) 0px,
+    rgba(255, 255, 255, 0.18) 4px,
+    transparent 4px,
+    transparent 9px
+  );
+}
+.tape-rouge { background-color: #c8381f; }
+.tape-moss { background-color: #6b7355; }
+.tape-dust { background-color: #d4a5a5; }
+.tape-gold { background-color: #b8924a; }
+.tape-denim { background-color: #39506b; }
+
+/* ---------- Torn paper edge (clip-path zigzag) ---------- */
+.torn-bottom {
+  clip-path: polygon(
+    0% 0%, 100% 0%, 100% 92%,
+    97% 100%, 94% 90%, 91% 100%, 88% 92%, 85% 100%,
+    82% 91%, 79% 100%, 76% 93%, 73% 100%, 70% 90%,
+    67% 100%, 64% 92%, 61% 100%, 58% 91%, 55% 100%,
+    52% 93%, 49% 100%, 46% 91%, 43% 100%, 40% 92%,
+    37% 100%, 34% 90%, 31% 100%, 28% 93%, 25% 100%,
+    22% 91%, 19% 100%, 16% 92%, 13% 100%, 10% 90%,
+    7% 100%, 4% 92%, 0% 100%
+  );
+}
+
+/* ---------- Polaroid frame ---------- */
+.polaroid {
+  background: #fffdf8;
+  padding: 12px 12px 44px 12px;
+  box-shadow: 0 2px 4px rgba(26, 23, 20, 0.15), 0 14px 28px -10px rgba(26, 23, 20, 0.4);
+}
+
+/* ---------- Film sprocket strip ---------- */
+.film-strip {
+  background-color: #15130f;
+  position: relative;
+}
+.film-strip::before,
+.film-strip::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 14px;
+  background-image: repeating-linear-gradient(
+    to right,
+    #f7f1e6 0px,
+    #f7f1e6 8px,
+    transparent 8px,
+    transparent 18px
+  );
+}
+.film-strip::before { top: 4px; }
+.film-strip::after { bottom: 4px; }
+
+/* ---------- Folio / running footer (signature element) ---------- */
+.folio-rule {
+  border-top: 1px solid rgba(26, 23, 20, 0.35);
+}
+
+/* ---------- Marker/highlighter underline ---------- */
+.marker-underline {
+  background-image: linear-gradient(transparent 60%, rgba(212, 165, 165, 0.65) 60%);
+  background-repeat: no-repeat;
+  padding: 0 2px;
+}
+
+/* ---------- Scrollbar (subtle, editorial) ---------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #efe6d4;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1714;
+}
+
+/* Focus visibility kept for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #c8381f;
+  outline-offset: 3px;
+}
