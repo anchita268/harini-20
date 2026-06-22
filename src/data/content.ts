@@ -187,12 +187,12 @@ export const diaryScrapbook = [
 ]; // 🖼️ Freeform scrapbook strip — add more for a longer scroll.
 
 // ----------------------------------------------------------------------------
-// SPREAD 9 — 20 THINGS WE LOVE ABOUT HARINI
+// SPREAD 9 — 20 THINGS WE LOVE ABOUT YOU
 // Keep this list at exactly 20 items if you want the "20 for 20" framing,
 // but feel free to add or cut — the numbering updates itself.
 // ----------------------------------------------------------------------------
 export const twentyThings = [
-  "The way you say 'okay but hear me out' before every unhinged plan.",
+  "You light up the room and make everything a 1000x more fun",
   "You remember everyone's order. Every single time.",
   "Your group chat voice notes are 40% information, 60% sound effects.",
   "You've never met a dance floor you didn't immediately claim.",
