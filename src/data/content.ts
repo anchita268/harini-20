@@ -52,7 +52,7 @@ export const editorsLetter = {
   ],
   // 🖼️ PHOTO PLACEHOLDER — small candid photo near the editor's letter
   signaturePhoto: "/photos/editor-candid.jpg",
-  handwrittenNote: "ok but PLEASE look at page 14 first 😭 — love you forever, idiot",
+  handwrittenNote: "ANYWAYS, we take tips starting from the low, low price of $50 and Guzman y Gomez",
 };
 
 // ----------------------------------------------------------------------------
