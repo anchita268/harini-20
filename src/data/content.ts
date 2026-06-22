@@ -43,7 +43,7 @@ export const coverHeadlines = {
 // SPREAD 2 — EDITOR'S LETTER
 // ----------------------------------------------------------------------------
 export const editorsLetter = {
-  kicker: "FROM THE DESK OF YOUR BEST FRIEND",
+  kicker: "FROM THE MOST GENEROUS AND LOVING FRIENDS IN THE WORLD",
   headline: "Dear Jay,",
   body: [
     "HAPPY TWENTIETH BIRTHDAY! We're so happy to celebrate this birthday with you and become uncs together. I hope you have the best party ever and enjoy your twenties with us travelling around Europe, working, graduating, getting married, having 18 kids, becoming sugar mommies to Anchita and SK and so much more.",
