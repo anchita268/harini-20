@@ -16,7 +16,7 @@
 // ============================================================================
 
 export const siteMeta = {
-  name: "Harini JAY Jonnada",
+  name: "Harini",
   age: 20,
   issueLine: "VOL. I — NO. 20",
   tagline: "THE BIRTHDAY ISSUE",
@@ -61,31 +61,31 @@ export const editorsLetter = {
 // ----------------------------------------------------------------------------
 export const loreTimeline = [
   {
-    year: "2010",
-    title: "Kindergarten Enemies-to-Friends Arc",
-    text: "Met in kindergarten. You stole my crayon. I let you keep it. The rest is history.",
+    year: "2017",
+    title: "The shredded Photo Collage",
+    text: "Bensy ma'am asked you to stay back for me and somehow we ended up bunking an event together?!?",
     photo: "/photos/lore-2010.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
-    year: "2013",
-    title: "Primary School Besties, Official",
-    text: "Matching friendship bracelets, matching pencil cases, one shared brain cell.",
+    year: "2018",
+    title: "SK joins GIIS",
+    text: "Me randomly asking you to study in the library ended up with years of the funniest memories all over tampines hub.",
     photo: "/photos/lore-2013.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
-    year: "2016",
-    title: "The Sleepover Era Begins",
-    text: "We discovered we could stay up until 3am. Our parents discovered this too, eventually.",
+    year: "2019",
+    title: "8th Grade: Our prime",
+    text: "Hanging out after school, playing games in class, and making tik toks in the washroom, OBSESSING OVER BTS <3, and our FIRST BOYFRIENDS!",
     photo: "/photos/lore-2016.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
-    year: "2019",
-    title: "The Group Chat Is Born",
-    text: "Renamed approximately 400 times. Current name classified.",
+    year: "2020",
+    title: "Luge and Lockdown",
+    text: "COVID happened, lots of zoom calls and among us.",
     photo: "/photos/lore-2019.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
-    year: "2022",
+    year: "2021",
     title: "First 'Adult' Trip",
     text: "No parents. Several wrong turns. The best three days of that entire year.",
     photo: "/photos/lore-2022.jpg", // 🖼️ PHOTO PLACEHOLDER
