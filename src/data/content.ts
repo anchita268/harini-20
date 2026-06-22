@@ -253,10 +253,10 @@ export const harinAwards = [
 ];
 
 // ----------------------------------------------------------------------------
-// SPREAD 11 — FRIENDSHIP INTERVIEW (magazine Q&A)
+// SPREAD 11 — LETTERS FROM ANCHITA AND SK
 // ----------------------------------------------------------------------------
 export const interview = {
-  intro: "We sat down with Harini's best friend of twenty years for an exclusive, mostly unserious interview.",
+  intro: "INTRO INTRO",
   qa: [
     {
       q: "How did you two meet?",
