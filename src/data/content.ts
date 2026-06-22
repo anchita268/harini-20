@@ -44,11 +44,11 @@ export const coverHeadlines = {
 // ----------------------------------------------------------------------------
 export const editorsLetter = {
   kicker: "FROM THE DESK OF YOUR BEST FRIEND",
-  headline: "Dear Harini, Welcome to Twenty",
+  headline: "Dear Jay,",
   body: [
-    "Putting this issue together meant scrolling through eleven years of camera rolls, several group chats that should be studied by historians, and at least one voice note that was just you laughing for forty seconds straight.",
-    "You have never once entered a room quietly. You have never once let a plan stay boring. You have never once let me feel like I was doing this whole 'growing up' thing alone — and somehow, twenty years later, you still text like it's an emergency even when it's about lunch.",
-    "This issue is my attempt to put all of that on paper before it lives only in our group chat. Turn the page — chaos ahead, as always.",
+    "HAPPY TWENTIETH BIRTHDAY! We're so happy to celebrate this birthday with you and become uncs together. I hope you have the best party ever and enjoy your twenties with us travelling around Europe, working, graduating, getting married, having 18 kids, becoming sugar mommies to Anchita and SK and so much more.",
+    "We are so lucky to have been friends with you for so long. You have made every hangout so memorable and we cant wait for our kids to grow up and experience the same friendship we shared for the past decade. You're one of the funniest, most beautiful and talented people we've ever met.",
+    "Anyone would be incredibly lucky to have you as their best friend but you are lowkey not allowed to have other best friends because we are more than enough. You dont need other hoes.",
   ],
   // 🖼️ PHOTO PLACEHOLDER — small candid photo near the editor's letter
   signaturePhoto: "/photos/editor-candid.jpg",
