@@ -19,7 +19,7 @@ export const siteMeta = {
   name: "Harini",
   age: 20,
   issueLine: "VOL. I — NO. 20",
-  tagline: "THE TWENTY ISSUE",
+  tagline: "THE BIRTHDAY ISSUE",
   bestFriendName: "Me", // change to your own name if you want it printed
 };
 
@@ -28,8 +28,8 @@ export const siteMeta = {
 // Fake headlines that wrap around the big cover photo, like a real magazine.
 // ----------------------------------------------------------------------------
 export const coverHeadlines = {
-  topLeft: "EXCLUSIVE: THE\nORAL HISTORY OF\nA CHAOTIC ICON",
-  topRight: "20 LOOKS,\n20 YEARS,\n0 CHILL",
+  topLeft: "EXCLUSIVE: TWENTIETH BIRTHDAY\n SPECIAL",
+  topRight: "MADE BY THE MOST SPECTACULAR, AMAZING\n SEXY, SMART AND THE BEST FRIENDS\n YOU COULD HAVE EVER ASKED FOR",
   bottomLeft: "“SHE NEVER\nWALKED IN—\nSHE ENTERED.”",
   bottomRight: "INSIDE PAGES:\nTHE LORE, THE AWARDS,\nTHE YAP SESSIONS",
   coverLine: "PLUS: 47 REASONS WE HAVEN'T REPLACED HER (YET)",
