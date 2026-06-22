@@ -16,7 +16,7 @@
 // ============================================================================
 
 export const siteMeta = {
-  name: "Harini",
+  name: "Harini JAY Jonnada",
   age: 20,
   issueLine: "VOL. I — NO. 20",
   tagline: "THE BIRTHDAY ISSUE",
@@ -29,8 +29,8 @@ export const siteMeta = {
 // ----------------------------------------------------------------------------
 export const coverHeadlines = {
   topLeft: "EXCLUSIVE: TWENTIETH BIRTHDAY\n SPECIAL",
-  topRight: "MADE BY THE MOST SPECTACULAR, AMAZING\n SEXY, SMART AND THE BEST FRIENDS\n YOU COULD HAVE EVER ASKED FOR",
-  bottomLeft: "“SHE NEVER\nWALKED IN—\nSHE ENTERED.”",
+  topRight: "<3",
+  bottomLeft: "“MADE BY THE MOST SPECTACULAR, AMAZING\n SEXY, SMART AND THE BEST FRIENDS\n YOU COULD HAVE EVER ASKED FOR”",
   bottomRight: "INSIDE PAGES:\nTHE LORE, THE AWARDS,\nTHE YAP SESSIONS",
   coverLine: "PLUS: 47 REASONS WE HAVEN'T REPLACED HER (YET)",
   // 🖼️ PHOTO PLACEHOLDER — main cover cutout photo of Harini.
