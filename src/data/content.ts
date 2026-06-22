@@ -79,27 +79,27 @@ export const loreTimeline = [
     photo: "/photos/lore-2016.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
-    year: "2020",
-    title: "Luge and Lockdown",
-    text: "COVID happened, lots of zoom calls and among us.",
+    year: "2022",
+    title: "WHy did you have to leave GIIS",
+    text: "First trip together to Batam and stressing over boards together D:",
     photo: "/photos/lore-2019.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
-    year: "2021",
-    title: "First 'Adult' Trip",
-    text: "No parents. Several wrong turns. The best three days of that entire year.",
+    year: "2024",
+    title: "FINALLY LEGAL",
+    text: "Lots of drinking, our first time clubbing!! sleepovers and much more",
     photo: "/photos/lore-2022.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2024",
-    title: "The Era of Spontaneous Everything",
-    text: "You started planning trips with four hours' notice. I started saying yes anyway.",
+    title: "Your first and only green flag!",
+    text: "You met Druv YAYYY",
     photo: "/photos/lore-2024.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2026",
     title: "Twenty. Twenty!! TWENTY!!!",
-    text: "Somehow here. Still chaotic. Still my favourite person to text at 1am.",
+    text: "OUR FIRST SOLO TRIP TO EUROPE!!!!!",
     photo: "/photos/lore-2026.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
 ];
