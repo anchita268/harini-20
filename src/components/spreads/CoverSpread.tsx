@@ -51,25 +51,25 @@ export default function CoverSpread() {
         </p>
       </motion.div>
 
-      {/* Cutout cover photo */}
-      <div className="relative z-10 mt-2 flex flex-1 items-end justify-center overflow-hidden sm:mt-0">
-        <motion.div
-          style={{ y: photoY, scale: photoScale }}
-          className="relative z-10 h-[58vh] w-[78vw] max-w-[560px] overflow-hidden sm:h-[70vh] sm:w-[60vw]"
-        >
-          {/* 🖼️ PHOTO PLACEHOLDER — main cover cutout. Replace coverPhoto in content.ts */}
-          <Photo
-            src={coverHeadlines.coverPhoto}
-            alt="Harini, cover photo"
-            className="absolute inset-0 h-full w-full object-cover object-top"
-          />
-        </motion.div>
+      {/* Full-page background photo */}
+    <motion.div
+      style={{ y: photoY, scale: photoScale }}
+      className="absolute inset-0 z-0"
+    >
+      <Photo
+        src={coverHeadlines.coverPhoto}
+        alt="Harini, cover photo"
+        className="h-full w-full object-cover object-center opacity-55"
+      />
+    </motion.div>
 
-        {/* Giant "20" layered behind/beside photo */}
-        <div className="pointer-events-none absolute bottom-[6%] right-[2%] z-0 select-none font-display text-[34vw] sm:text-[24vw] leading-none text-rouge/90 sm:right-[4%]">
-          20
-        </div>
-      </div>
+    {/* Light paper overlay so text stays readable */}
+    <div className="absolute inset-0 z-[1] bg-paper/35" />
+
+    {/* Giant "20" — keep exactly same styling */}
+    <div className="pointer-events-none absolute bottom-[6%] right-[2%] z-0 select-none font-display text-[34vw] sm:text-[24vw] leading-none text-rouge/90 sm:right-[4%]">
+      20
+    </div>
 
       {/* Bottom headline row */}
       <motion.div style={{ opacity: fade }} className="relative z-20 flex items-end justify-between gap-4 px-4 pb-16 sm:px-10 sm:pb-10">
