@@ -64,7 +64,7 @@ export const loreTimeline = [
     year: "2017",
     title: "The shredded Photo Collage",
     text: "Bensy ma'am asked you to stay back for me and somehow we ended up bunking an event together?!?",
-    photo: "/photos/lore-2010.jpg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2010.jpeg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2018",
