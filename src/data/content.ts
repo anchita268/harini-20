@@ -20,7 +20,7 @@ export const siteMeta = {
   age: 20,
   issueLine: "VOL. I — NO. 20",
   tagline: "THE BIRTHDAY ISSUE",
-  bestFriendName: "Me", // change to your own name if you want it printed
+  bestFriendName: "Anchita and SK", // change to your own name if you want it printed
 };
 
 // ----------------------------------------------------------------------------
@@ -64,31 +64,31 @@ export const loreTimeline = [
     year: "2017",
     title: "The shredded Photo Collage",
     text: "Bensy ma'am asked you to stay back for me and somehow we ended up bunking an event together?!?",
-    photo: "/photos/lore-2010.jpeg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2017.jpeg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2018",
     title: "SK joins GIIS",
     text: "Me randomly asking you to study in the library ended up with years of the funniest memories all over tampines hub.",
-    photo: "/photos/lore-2013.jpg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2018.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2019",
     title: "8th Grade: Our prime",
     text: "Hanging out after school, playing games in class, and making tik toks in the washroom, OBSESSING OVER BTS <3, and our FIRST BOYFRIENDS!",
-    photo: "/photos/lore-2016.jpg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2019.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2022",
     title: "WHy did you have to leave GIIS",
     text: "First trip together to Batam and stressing over boards together D:",
-    photo: "/photos/lore-2019.jpg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2022.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2024",
     title: "FINALLY LEGAL",
     text: "Lots of drinking, our first time clubbing!! sleepovers and much more",
-    photo: "/photos/lore-2022.jpg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2023.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2024",
