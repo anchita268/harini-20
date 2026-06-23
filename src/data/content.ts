@@ -94,7 +94,7 @@ export const loreTimeline = [
     year: "2024",
     title: "Your first and only green flag!",
     text: "You met Druv YAYYY",
-    photo: "/photos/lore-2024.jpg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2024.jpeg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2026",
