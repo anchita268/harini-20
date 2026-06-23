@@ -52,19 +52,22 @@ export default function CoverSpread() {
       </motion.div>
 
       {/* Full-page background photo */}
-    <motion.div
-      style={{ y: photoY, scale: photoScale }}
-      className="absolute inset-0 z-0"
-    >
-      <Photo
-        src={coverHeadlines.coverPhoto}
-        alt="Harini, cover photo"
-        className="h-full w-full object-cover object-center opacity-55"
-      />
-    </motion.div>
+      <motion.div
+        style={{ y: photoY, scale: photoScale }}
+        className="absolute inset-0 z-0"
+      >
+        <Photo
+          src={coverHeadlines.coverPhoto}
+          alt="Harini, cover photo"
+          className="h-full w-full object-cover opacity-55"
+          style={{
+            objectPosition: "35% 60%",
+          }}
+        />
+      </motion.div>
 
     {/* Light paper overlay so text stays readable */}
-    <div className="absolute inset-0 z-[1] bg-paper/35" />
+    <div className="absolute inset-0 z-[1] bg-paper/45" />
 
     {/* Giant "20" — keep exactly same styling */}
     <div className="pointer-events-none absolute bottom-[6%] right-[2%] z-0 select-none font-display text-[34vw] sm:text-[24vw] leading-none text-rouge/90 sm:right-[4%]">
