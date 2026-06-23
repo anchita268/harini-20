@@ -69,7 +69,7 @@ export default function CoverSpread() {
         <div className="relative z-10 mt-2 flex flex-1 sm:mt-0" />
 
         {/* Giant "20" layered behind/beside photo */}
-        <div className="pointer-events-none absolute bottom-[6%] right-[2%] z-0 select-none font-display text-[34vw] sm:text-[24vw] leading-none text-rouge/90 sm:right-[4%]">
+        <div className="pointer-events-none absolute bottom-[10%] right-[2%] z-0 select-none font-display text-[34vw] sm:text-[24vw] leading-none text-rouge/90 sm:right-[4%]">
           20
         </div>
       
