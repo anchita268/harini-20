@@ -65,6 +65,8 @@ export default function CoverSpread() {
 
         {/* Soft fade so text remains readable */}
         <div className="absolute inset-0 z-[1] bg-paper/45" />
+        {/* Invisible spacer to keep the original layout height */}
+        <div className="relative z-10 mt-2 flex flex-1 sm:mt-0" />
 
         {/* Giant "20" layered behind/beside photo */}
         <div className="pointer-events-none absolute bottom-[6%] right-[2%] z-0 select-none font-display text-[34vw] sm:text-[24vw] leading-none text-rouge/90 sm:right-[4%]">
