@@ -24,71 +24,88 @@ export default function CoverSpread() {
   return (
     <section
       ref={ref}
-      id="cover"
-      className="paper-grain relative flex h-[100vh] min-h-[640px] w-full flex-col overflow-hidden bg-paper"
+      id ="cover"
+      className="paper-grain relative h-[100vh] min-h-[640px] w-full overflow-hidden bg-paper"
     >
-      {/* Halftone corner accents */}
-      <div className="halftone-rouge absolute -right-16 -top-16 h-56 w-56 rounded-full opacity-70" aria-hidden />
-      <div className="halftone absolute -bottom-10 -left-10 h-40 w-40 opacity-50" aria-hidden />
+      {/* Full-page background photo */}
+      <motion.div
+        style={{ y: photoY, scale: photoScale }}
+        className="absolute inset-0 z-0"
+      >
+        <Photo
+          src={coverHeadlines.coverPhoto}
+          alt="Harini, cover photo"
+          className="h-full w-full object-cover object-center opacity-55"
+        />
+      </motion.div>
 
-      {/* Top masthead row */}
-      <motion.div style={{ opacity: fade }} className="relative z-20 flex items-start justify-between px-4 pt-5 sm:px-10 sm:pt-8">
-        <div className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.25em] text-ink/70 leading-snug max-w-[34%] whitespace-pre-line">
+      {/* Soft editorial wash over the image */}
+      <div className="absolute inset-0 z-10 bg-paper/55" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-paper/70 via-paper/35 to-paper/65" />
+
+      {/* Halftone corner accents */}
+      <div className="halftone-rouge absolute -right-16 -top-16 z-20 h-56 w-56 rounded-full opacity-70" aria-hidden />
+      <div className="halftone absolute -bottom-10 -left-10 z-20 h-40 w-40 opacity-50" aria-hidden />
+
+      {/* Top small headlines */}
+      <motion.div
+        style={{ opacity: fade }}
+        className="relative z-30 flex items-start justify-between px-4 pt-5 sm:px-10 sm:pt-8"
+      >
+        <div className="max-w-[34%] whitespace-pre-line font-mono text-[10px] uppercase leading-snug tracking-[0.25em] text-ink/75 sm:text-xs">
           {coverHeadlines.topLeft}
         </div>
-        <div className="font-mono text-[10px] sm:text-xs uppercase tracking-[0.25em] text-ink/70 leading-snug max-w-[34%] whitespace-pre-line text-right">
+
+        <div className="max-w-[34%] whitespace-pre-line text-right font-mono text-[10px] uppercase leading-snug tracking-[0.25em] text-ink/75 sm:text-xs">
           {coverHeadlines.topRight}
         </div>
       </motion.div>
 
-      {/* Masthead */}
-      <motion.div style={{ y: mastY }} className="relative z-20 mt-2 px-4 text-center sm:mt-4">
-        <h1 className="font-display text-[20vw] sm:text-[15vw] md:text-[13vw] leading-[0.82] tracking-tight text-ink">
-          HARINI
+      {/* Main masthead */}
+      <motion.div
+        style={{ y: mastY }}
+        className="relative z-30 mt-4 px-4 text-center sm:mt-8"
+      >
+        <h1 className="font-display text-[22vw] leading-[0.78] tracking-tight text-ink sm:text-[16vw] md:text-[13vw]">
+          HARINI JAY JONNADA
         </h1>
-        <p className="mt-1 font-mono text-[10px] sm:text-sm uppercase tracking-[0.4em] text-rouge">
+
+        <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.45em] text-rouge sm:text-sm">
           {siteMeta.tagline} · {siteMeta.issueLine}
         </p>
       </motion.div>
 
-      {/* Cutout cover photo */}
-      <div className="relative z-10 mt-2 flex flex-1 items-end justify-center overflow-hidden sm:mt-0">
-        <motion.div
-          style={{ y: photoY, scale: photoScale }}
-          className="relative z-10 h-[58vh] w-[78vw] max-w-[560px] overflow-hidden sm:h-[70vh] sm:w-[60vw]"
-        >
-          {/* 🖼️ PHOTO PLACEHOLDER — main cover cutout. Replace coverPhoto in content.ts */}
-          <Photo
-            src={coverHeadlines.coverPhoto}
-            alt="Harini, cover photo"
-            className="absolute inset-0 h-full w-full object-cover object-top"
-          />
-        </motion.div>
-
-        {/* Giant "20" layered behind/beside photo */}
-        <div className="pointer-events-none absolute bottom-[6%] right-[2%] z-0 select-none font-display text-[34vw] sm:text-[24vw] leading-none text-rouge/90 sm:right-[4%]">
-          20
-        </div>
+      {/* Giant age number */}
+      <div className="pointer-events-none absolute right-[2vw] top-[42%] z-20 -translate-y-1/2 select-none font-display text-[42vw] leading-none text-rouge/90 sm:right-[5vw] sm:text-[28vw]">
+        20
       </div>
 
-      {/* Bottom headline row */}
-      <motion.div style={{ opacity: fade }} className="relative z-20 flex items-end justify-between gap-4 px-4 pb-16 sm:px-10 sm:pb-10">
-        <p className="max-w-[40%] font-display text-sm italic leading-snug text-ink sm:text-xl whitespace-pre-line">
+      {/* Bottom cover text */}
+      <motion.div
+        style={{ opacity: fade }}
+        className="absolute bottom-12 left-0 right-0 z-30 flex items-end justify-between gap-4 px-4 sm:px-10"
+      >
+        <p className="max-w-[48%] whitespace-pre-line font-display text-sm italic leading-snug text-ink sm:text-2xl">
           {coverHeadlines.bottomLeft}
         </p>
-        <p className="max-w-[40%] text-right font-mono text-[10px] uppercase leading-snug tracking-[0.2em] text-ink/70 sm:text-xs whitespace-pre-line">
+
+        <p className="max-w-[36%] whitespace-pre-line text-right font-mono text-[10px] uppercase leading-snug tracking-[0.2em] text-ink/75 sm:text-xs">
           {coverHeadlines.bottomRight}
         </p>
       </motion.div>
 
-      <motion.div style={{ opacity: fade }} className="relative z-20 border-t border-ink/20 px-4 py-2 text-center font-mono text-[9px] uppercase tracking-[0.3em] text-ink/60 sm:text-[11px]">
+      {/* Bottom cover line */}
+      <motion.div
+        style={{ opacity: fade }}
+        className="absolute bottom-0 left-0 right-0 z-30 border-t border-ink/20 px-4 py-2 text-center font-mono text-[9px] uppercase tracking-[0.3em] text-ink/65 sm:text-[11px]"
+      >
         {coverHeadlines.coverLine}
       </motion.div>
 
       {/* Scroll cue */}
       <motion.div
         style={{ opacity: fade }}
-        className="absolute bottom-3 left-1/2 z-20 -translate-x-1/2 font-mono text-[10px] uppercase tracking-[0.3em] text-ink/50 sm:bottom-5"
+        className="absolute bottom-7 left-1/2 z-40 -translate-x-1/2 font-mono text-[10px] uppercase tracking-[0.3em] text-ink/50"
         animate={{ y: [0, 6, 0] }}
         transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
       >
