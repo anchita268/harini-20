@@ -59,10 +59,7 @@ export default function CoverSpread() {
           <Photo
             src={coverHeadlines.coverPhoto}
             alt="Harini, cover photo"
-            className="h-full w-full object-cover opacity-55"
-            style={{
-              objectPosition: "30% 65%",
-            }}
+            className="h-full w-full object-cover object-[30%_65%] opacity-55"
           />
         </motion.div>
 

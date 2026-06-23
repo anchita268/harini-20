@@ -61,7 +61,7 @@ export default function EditorsLetterSpread() {
                 />
               </div>
               <p className="absolute bottom-2 left-0 right-0 px-3 text-center font-hand text-lg text-ink-soft">
-                us, probably mid-argument about where to eat
+                us
               </p>
             </div>
           </div>
