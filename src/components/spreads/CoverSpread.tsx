@@ -55,13 +55,16 @@ export default function CoverSpread() {
       <div className="relative z-10 mt-2 flex flex-1 items-end justify-center overflow-hidden sm:mt-0">
         <motion.div
           style={{ y: photoY, scale: photoScale }}
-          className="relative z-10 h-[58vh] w-[78vw] max-w-[560px] overflow-hidden sm:h-[70vh] sm:w-[60vw]"
+          className="absolute inset-0 z-0"
         >
           {/* 🖼️ PHOTO PLACEHOLDER — main cover cutout. Replace coverPhoto in content.ts */}
           <Photo
             src={coverHeadlines.coverPhoto}
             alt="Harini, cover photo"
-            className="absolute inset-0 h-full w-full object-cover object-top"
+            className="h-full w-full object-cover opacity-55"
+            style={{
+              objectPosition: "30% 65%",
+            }}
           />
         </motion.div>
 
