@@ -66,7 +66,7 @@ export default function EditorsLetterSpread() {
             </div>
           </div>
           <p className="mt-8 text-right font-display text-sm italic text-ink/60">
-            — The Editor (your best friend, forever)
+            — The incredibly smart, amazing, phenomenal Editors
           </p>
         </Reveal>
       </div>
