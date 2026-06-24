@@ -21,7 +21,7 @@ export default function LoreSpread() {
       <div className="mx-auto max-w-6xl">
         <Reveal className="text-center">
           <SectionLabel className="mx-auto">A FRIENDSHIP RETROSPECTIVE</SectionLabel>
-          <h2 className="mt-4 font-display text-5xl italic text-ink sm:text-7xl">The Lore</h2>
+          <h2 className="mt-4 font-display text-5xl italic text-ink sm:text-7xl">Our Timeline</h2>
           <p className="mx-auto mt-3 max-w-xl font-body text-sm text-ink-soft sm:text-base">
             Eleven-plus years, condensed into a timeline — because somebody had to document this.
           </p>
@@ -86,7 +86,7 @@ export default function LoreSpread() {
         </div>
       </div>
 
-      <Folio pageNumber="P. 04–05" section="THE LORE" />
+      <Folio pageNumber="P. 04–05" section="THE TIMELINE" />
     </section>
   );
 }
