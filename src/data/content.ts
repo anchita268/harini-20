@@ -182,12 +182,12 @@ export const diaryCollage = [
 
 // Spread 7 — Caption-led editorial grid (looks like a fashion spread)
 export const diaryEditorialGrid = [
-  { src: "/photos/editorial-01.jpg", caption: "LOOK 01 — campus chaos, accessorised", credit: "candid, unposed, iconic anyway" },
-  { src: "/photos/editorial-02.jpg", caption: "LOOK 02 — birthday dinner, take three", credit: "she changed outfits twice in the car" },
-  { src: "/photos/editorial-03.jpg", caption: "LOOK 03 — 6am airport, still serving", credit: "no sleep, full glam, unclear how" },
-  { src: "/photos/editorial-04.jpg", caption: "LOOK 04 — 'casual' grocery run", credit: "there is no such thing as casual for her" },
-  { src: "/photos/editorial-05.jpg", caption: "LOOK 05 — group project presentation fit", credit: "carried the entire team, in heels" },
-  { src: "/photos/editorial-06.jpg", caption: "LOOK 06 — rooftop, golden hour, of course", credit: "main character lighting, every time" },
+  { src: "/photos/editorial-01.jpg", caption: "LOOK 01", credit: "<3" },
+  { src: "/photos/editorial-02.jpg", caption: "LOOK 02", credit: "<3" },
+  { src: "/photos/editorial-03.jpg", caption: "LOOK 03", credit: "..." },
+  { src: "/photos/editorial-04.jpg", caption: "LOOK 04", credit: "..." },
+  { src: "/photos/editorial-05.jpg", caption: "LOOK 05", credit: "..." },
+  { src: "/photos/editorial-06.jpg", caption: "LOOK 06", credit: "..." },
 ]; // 🖼️ Add as many "looks" as you want — grid re-flows automatically.
 
 // Spread 8 — Scrapbook freeform (stickers, notes, mixed photo sizes)
