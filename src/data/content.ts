@@ -166,8 +166,8 @@ export const diaryCollage = [
   { src: "/photos/collage-08.jpg", size: "sm", rotate: 5, top: "78%", left: "70%" },
   { src: "/photos/collage-10.jpg", size: "sm", rotate: -5, top: "43%", left: "84%" },
   { src: "/photos/collage-09.jpg", size: "md", rotate: -5, top: "73%", left: "90%" },
+  { src: "/photos/collage-11.jpg", size: "md", rotate: -5, top: "23%", left: "96%" }
 
-  
 ]; // 🖼️ size: "sm" | "md" | "lg" — top/left are % positions inside the collage canvas.
 
 // Spread 7 — Caption-led editorial grid (looks like a fashion spread)
