@@ -31,7 +31,7 @@ export const coverHeadlines = {
   topLeft: "EXCLUSIVE: TWENTIETH BIRTHDAY\n SPECIAL",
   topRight: "<3",
   bottomLeft: "“MADE BY THE MOST SPECTACULAR, AMAZING\n SEXY, SMART AND THE BEST FRIENDS\n YOU COULD HAVE EVER ASKED FOR”",
-  bottomRight: "INSIDE PAGES:\nTHE LORE, THE AWARDS,\nTHE YAP SESSIONS",
+  bottomRight: "INSIDE PAGES:\nTIMELINE, THE MEMORIES,\nTHE YAP SESSIONS",
   coverLine: "PLUS: 20 REASONS WE HAVEN'T REPLACED HER (YET)",
   // 🖼️ PHOTO PLACEHOLDER — main cover cutout photo of Harini.
   // Best results: a fun, full-body or three-quarter shot with plain-ish
