@@ -281,6 +281,12 @@ export const birthdayMessages = [
     photo: "/photos/postcard-04.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
     stamp: "Saba",
   },
+  {
+    from: "Aunties",
+    message: "Happy Birthday Beta!! - aditi aunty... Happy birthday jayy have the best time and great year. wishing you all the best!- sks mom🥂",
+    photo: "/photos/postcard-04.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
+    stamp: "aunties",
+  },
 ]; // 🖼️ Edit `from` and `message`, replace photos, or duplicate the block for more.
 
 // ----------------------------------------------------------------------------
