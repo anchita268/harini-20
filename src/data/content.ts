@@ -117,7 +117,7 @@ export const diaryPolaroids = [
   { src: "/photos/diary-02.jpg", caption: "beach day <3", rotate: 2, tape: "moss" },
   { src: "/photos/diary-03.jpg", caption: "HHN", rotate: -1, tape: "dust" },
   { src: "/photos/diary-04.jpg", caption: "I AM SOBER!!!", rotate: 4, tape: "gold" },
-  { src: "/photos/diary-05.jpg", caption: "#we miss aleia, our god-daughter", rotate: -2, tape: "denim" },
+  { src: "/photos/diary-05.jpg", caption: "#we miss aleia", rotate: -2, tape: "denim" },
   { src: "/photos/diary-06.jpg", caption: "batam!!", rotate: 3, tape: "rouge" },
   { src: "/photos/diary-07.jpg", caption: "playing twister just to feel us up", rotate: -4, tape: "moss" },
   { src: "/photos/diary-08.jpg", caption: "...", rotate: 1, tape: "dust" },
