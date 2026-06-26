@@ -121,6 +121,7 @@ export const diaryPolaroids = [
   { src: "/photos/diary-06.jpg", caption: "batam!!", rotate: 3, tape: "rouge" },
   { src: "/photos/diary-07.jpg", caption: "anchita's house!!", rotate: -4, tape: "moss" },
   { src: "/photos/diary-08.jpg", caption: "...", rotate: 1, tape: "dust" },
+  { src: "/photos/diary-09.jpg", caption: "NUS", rotate: -3, tape: "gold" },
 ]; // 🖼️ Add more objects here for more polaroids — grid wraps automatically.
 
 // Spread 5 — Film strip rolls (group photos in horizontal strips)
@@ -190,8 +191,8 @@ export const diaryEditorialGrid = [
 // Spread 8 — Scrapbook freeform (stickers, notes, mixed photo sizes)
 export const diaryScrapbook = [
   { src: "/photos/scrap-01.jpg", caption: "BDAY!", rotate: -3 },
-  { src: "/photos/scrap-02.jpg", caption: "exhibit B", rotate: 2 },
-  { src: "/photos/scrap-03.jpg", caption: "the evidence keeps coming", rotate: -1 },
+  { src: "/photos/scrap-02.jpg", caption: "idk man", rotate: 2 },
+  { src: "/photos/scrap-03.jpg", caption: "....", rotate: -1 },
   { src: "/photos/scrap-04.jpg", caption: "your honor, I rest my case", rotate: 4 },
   { src: "/photos/scrap-05.jpg", caption: "unrelated but iconic", rotate: -4 },
   { src: "/photos/scrap-06.jpg", caption: "filed under: chaos", rotate: 3 },
