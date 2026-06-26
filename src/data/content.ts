@@ -209,7 +209,7 @@ export const twentyThings = [
   "The way you love making sure everyone in the room is having the best time",
   "You are spontaneous and always up for any plan whatsoever",
   "I love that you are always there to help me finish my last bite and rest of the buldak sauce.",
-  "Love having someone to help me finish my potato corner and a friend in the west.",
+  "Love having a friend in the west.",
   "You got the sense of style and clothes for us to steal",
   "You always have the best lore and tea to spill <3",
   "Your laugh is the loudest one in any room, and we wouldn't change that.",
