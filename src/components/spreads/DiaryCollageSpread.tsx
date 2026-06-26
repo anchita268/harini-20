@@ -27,7 +27,7 @@ export default function DiaryCollageSpread() {
         <Reveal className="mb-10 sm:mb-14">
           <SectionLabel>PHOTO DIARY — PAGE THREE</SectionLabel>
           <h2 className="mt-4 font-display text-5xl italic text-ink sm:text-6xl">
-            Everything, All at Once
+            DRUUUUUUUUUUUUUV
           </h2>
           <p className="mt-3 max-w-md font-body text-sm text-ink-soft sm:text-base">
             A layered cluster — exactly how a desk covered in printed photos would look.
