@@ -119,7 +119,7 @@ export const diaryPolaroids = [
   { src: "/photos/diary-04.jpg", caption: "I AM SOBER!!!", rotate: 4, tape: "gold" },
   { src: "/photos/diary-05.jpg", caption: "#we miss aleia", rotate: -2, tape: "denim" },
   { src: "/photos/diary-06.jpg", caption: "batam!!", rotate: 3, tape: "rouge" },
-  { src: "/photos/diary-07.jpg", caption: "playing twister just to feel us up", rotate: -4, tape: "moss" },
+  { src: "/photos/diary-07.jpg", caption: "anchita's house!!", rotate: -4, tape: "moss" },
   { src: "/photos/diary-08.jpg", caption: "...", rotate: 1, tape: "dust" },
 ]; // 🖼️ Add more objects here for more polaroids — grid wraps automatically.
 
