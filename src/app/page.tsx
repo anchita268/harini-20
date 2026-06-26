@@ -33,7 +33,6 @@ export default function Home() {
       <DiaryEditorialGridSpread />
       <DiaryScrapbookSpread />
       <TwentyThingsSpread />
-      <AwardsSpread />
       <InterviewSpread />
       <BirthdayMessagesSpread />
       <MemoryWallSpread />
