@@ -8,7 +8,6 @@ import DiaryCollageSpread from "@/components/spreads/DiaryCollageSpread";
 import DiaryEditorialGridSpread from "@/components/spreads/DiaryEditorialGridSpread";
 import DiaryScrapbookSpread from "@/components/spreads/DiaryScrapbookSpread";
 import TwentyThingsSpread from "@/components/spreads/TwentyThingsSpread";
-import AwardsSpread from "@/components/spreads/AwardsSpread";
 import InterviewSpread from "@/components/spreads/InterviewSpread";
 import BirthdayMessagesSpread from "@/components/spreads/BirthdayMessagesSpread";
 import MemoryWallSpread from "@/components/spreads/MemoryWallSpread";
