@@ -113,11 +113,11 @@ export const loreTimeline = [
 
 // Spread 4 — Polaroid wall
 export const diaryPolaroids = [
-  { src: "/photos/diary-01.jpg", caption: "the OG photo booth era", rotate: -3, tape: "rouge" },
-  { src: "/photos/diary-02.jpg", caption: "she said it was 'just one drink'", rotate: 2, tape: "moss" },
-  { src: "/photos/diary-03.jpg", caption: "field trip felony of some kind", rotate: -1, tape: "dust" },
-  { src: "/photos/diary-04.jpg", caption: "10/10 chaos, no regrets", rotate: 4, tape: "gold" },
-  { src: "/photos/diary-05.jpg", caption: "main character walking away from an explosion (metaphorical)", rotate: -2, tape: "denim" },
+  { src: "/photos/diary-01.jpg", caption: "first time at marquee!", rotate: -3, tape: "rouge" },
+  { src: "/photos/diary-02.jpg", caption: "beach day <3", rotate: 2, tape: "moss" },
+  { src: "/photos/diary-03.jpg", caption: "HHN", rotate: -1, tape: "dust" },
+  { src: "/photos/diary-04.jpg", caption: "I AM SOBER!!!", rotate: 4, tape: "gold" },
+  { src: "/photos/diary-05.jpg", caption: "#we miss aleia, our god-daughter", rotate: -2, tape: "denim" },
   { src: "/photos/diary-06.jpg", caption: "we do NOT talk about this night", rotate: 3, tape: "rouge" },
   { src: "/photos/diary-07.jpg", caption: "the iconic birthday dinner of 2023", rotate: -4, tape: "moss" },
   { src: "/photos/diary-08.jpg", caption: "she's the main character, I'm just narrating", rotate: 1, tape: "dust" },
