@@ -196,6 +196,7 @@ export const diaryScrapbook = [
   { src: "/photos/scrap-04.jpg", caption: "...", rotate: 4 },
   { src: "/photos/scrap-05.jpg", caption: "...", rotate: -4 },
   { src: "/photos/scrap-06.jpg", caption: "....", rotate: 3 },
+  { src: "/photos/scrap-07.jpg", caption: "....", rotate: -5 },
 ]; // 🖼️ Freeform scrapbook strip — add more for a longer scroll.
 
 // ----------------------------------------------------------------------------
