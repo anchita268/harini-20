@@ -122,7 +122,8 @@ export const diaryPolaroids = [
   { src: "/photos/diary-07.jpg", caption: "anchita's house!!", rotate: -4, tape: "moss" },
   { src: "/photos/diary-08.jpg", caption: "...", rotate: 1, tape: "dust" },
   { src: "/photos/diary-09.jpg", caption: "NUS", rotate: -3, tape: "gold" },
-  { src: "/photos/diary-10.jpg", caption: "...", rotate: -3, tape: "rouge" }
+  { src: "/photos/diary-10.jpg", caption: "...", rotate: -3, tape: "rouge" },
+  { src: "/photos/diary-11.jpg", caption: "...", rotate: -3, tape: "rouge" }
 ]; // 🖼️ Add more objects here for more polaroids — grid wraps automatically.
 
 // Spread 5 — Film strip rolls (group photos in horizontal strips)
@@ -284,7 +285,7 @@ export const birthdayMessages = [
   {
     from: "Aunties",
     message: "Happy Birthday Beta!! - aditi aunty... Happy birthday jayy have the best time and great year. wishing you all the best!- sks mom🥂",
-    photo: "/photos/postcard-04.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
+    photo: "/photos/postcard-05.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
     stamp: "aunties",
   },
 ]; // 🖼️ Edit `from` and `message`, replace photos, or duplicate the block for more.
