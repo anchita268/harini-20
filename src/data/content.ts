@@ -271,10 +271,10 @@ export const birthdayMessages = [
     stamp: "Thamoda",
   },
   {
-    from: "Friend Name",
-    message: "Twenty looks good on you. So does literally everything else, annoyingly.",
+    from: "Saba",
+    message: "HAPPY BIRTHDAY HARINIIIIIII!!! i love you smsmsm :) all these years later you genuinely still feel like home to me. i'm so grateful to have you as my childhood bestie and forever friend!! :D i hope your year is filled to the BRIM with blessings and joy 🥂",
     photo: "/photos/postcard-04.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
-    stamp: "SPECIAL DELIVERY",
+    stamp: "Saba",
   },
 ]; // 🖼️ Edit `from` and `message`, replace photos, or duplicate the block for more.
 
