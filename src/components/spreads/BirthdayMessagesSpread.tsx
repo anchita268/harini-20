@@ -1,7 +1,5 @@
 // ============================================================================
 // SPREAD 12 — BIRTHDAY MESSAGES
-// Postcards from friends. Edit `birthdayMessages` in src/data/content.ts —
-// duplicate an object in the array to add another friend's message.
 // ============================================================================
 
 import Photo from "@/components/Photo";
@@ -29,19 +27,18 @@ export default function BirthdayMessagesSpread() {
 
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-16">
           {birthdayMessages.map((msg, i) => (
-            <Reveal key={msg.from + i} delay={(i % 2) * 0.1} direction={i % 2 === 0 ? "left" : "right"}>
-              <div
-                className="relative mx-auto flex max-w-md flex-col overflow-hidden border border-ink/15 bg-cream shadow-lift sm:flex-row"
-                style={{ transform: `rotate(${i % 2 === 0 ? -1 : 1}deg)` }}
-              >
+            <Reveal
+              key={msg.from + i}
+              delay={(i % 2) * 0.1}
+              direction={i % 2 === 0 ? "left" : "right"}
+            >
               <div
                 className={`relative mx-auto flex flex-col overflow-hidden border border-ink/15 bg-cream shadow-lift sm:flex-row ${
-                i === 0 ? "max-w-2xl" : "max-w-md"}`}
+                  i === 0 ? "max-w-2xl" : "max-w-md"
+                }`}
                 style={{ transform: `rotate(${i % 2 === 0 ? -1 : 1}deg)` }}
-              ></div>
-                {/* Photo half */}
+              >
                 <div className="relative h-40 w-full flex-shrink-0 bg-paper-dark sm:h-auto sm:w-2/5">
-                  {/* 🖼️ PHOTO PLACEHOLDER (optional) — replace or remove `photo` in content.ts */}
                   <Photo
                     src={msg.photo}
                     alt={`Postcard photo from ${msg.from}`}
@@ -51,7 +48,7 @@ export default function BirthdayMessagesSpread() {
                     {msg.stamp}
                   </span>
                 </div>
-                {/* Message half */}
+
                 <div className="flex flex-1 flex-col justify-between p-5 sm:p-6">
                   <p className="font-hand text-xl leading-snug text-ink-soft sm:text-2xl">
                     {msg.message}
