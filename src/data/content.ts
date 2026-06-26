@@ -268,7 +268,7 @@ export const birthdayMessages = [
     from: "Thamoda",
     message: "Happy Birthday Jay, big 20 years old, you still deserve ranch in your hair though",
     photo: "/photos/postcard-03.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
-    stamp: "HAND DELIVERED, NO STAMP NEEDED",
+    stamp: "Thamoda",
   },
   {
     from: "Friend Name",
