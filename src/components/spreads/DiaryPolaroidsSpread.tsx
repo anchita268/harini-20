@@ -22,7 +22,7 @@ export default function DiaryPolaroidsSpread() {
             The Polaroid Wall
           </h2>
           <p className="mt-3 max-w-md font-body text-sm text-ink-soft sm:text-base">
-            A loose, slightly crooked wall of instants — exactly how the real one would look.
+            INCASE YOU FORGOT ANY OF THESE..
           </p>
         </Reveal>
 

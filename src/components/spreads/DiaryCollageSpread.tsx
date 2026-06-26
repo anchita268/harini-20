@@ -30,7 +30,7 @@ export default function DiaryCollageSpread() {
             DRUUUUUUUUUUUUUV
           </h2>
           <p className="mt-3 max-w-md font-body text-sm text-ink-soft sm:text-base">
-            A layered cluster — exactly how a desk covered in printed photos would look.
+            Some of your cutest pictures
           </p>
         </Reveal>
 
