@@ -148,6 +148,7 @@ export const diaryFilmStrips = [
       "/photos/film-02-3.jpg",
       "/photos/film-02-4.jpg",
       "/photos/film-02-5.jpg",
+      "/photos/film-02-6.jpg",
     ],
   },
   {
