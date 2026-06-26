@@ -88,7 +88,7 @@ export const loreTimeline = [
     year: "2024",
     title: "FINALLY LEGAL",
     text: "Lots of drinking, our first time clubbing!! sleepovers and much more",
-    photo: "/photos/lore-2023.JPG", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-2023.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2024",
@@ -324,7 +324,7 @@ export const birthdayMessages = [
 // wall. Mix in duplicates from earlier spreads or all-new ones.
 // ----------------------------------------------------------------------------
 export const memoryWall = [
-  "/photos/wall-01.jpg", "/photos/wall-02.jpg", "/photos/wall-03.jpg", "/photos/wall-04.jpg",
+  "/photos/wall-01.jpg", "/photos/wall-02.jpg", "/photos/wall-03.JPG", "/photos/wall-04.jpg",
   "/photos/wall-05.jpg", "/photos/wall-06.jpg", "/photos/wall-07.jpg", "/photos/wall-08.jpg",
   "/photos/wall-09.jpg", "/photos/wall-10.jpg", "/photos/wall-11.jpg", "/photos/wall-12.jpg",
   "/photos/wall-13.jpg", "/photos/wall-14.jpg", "/photos/wall-15.jpg", "/photos/wall-16.jpg",
