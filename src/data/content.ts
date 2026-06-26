@@ -265,8 +265,8 @@ export const birthdayMessages = [
     stamp: "Shhreya",
   },
   {
-    from: "Friend Name",
-    message: "You make every plan better just by being there. Happy 20th — go be chaotic, you earned it.",
+    from: "Thamoda",
+    message: "Happy Birthday Jay, big 20 years old, you still deserve ranch in your hair though",
     photo: "/photos/postcard-03.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
     stamp: "HAND DELIVERED, NO STAMP NEEDED",
   },
