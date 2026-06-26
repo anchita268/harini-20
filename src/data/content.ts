@@ -229,40 +229,6 @@ export const twentyThings = [
 // ----------------------------------------------------------------------------
 // SPREAD 10 — THE HARINI AWARDS
 // ----------------------------------------------------------------------------
-export const harinAwards = [
-  {
-    title: "Most Likely To Start Chaos",
-    blurb: "Walked into the room and the room never recovered.",
-  },
-  {
-    title: "CEO of Last-Minute Plans",
-    blurb: "Founded, funded, and fully executed at 11:47pm.",
-  },
-  {
-    title: "Professional Yapper, Lifetime Achievement",
-    blurb: "Forty-minute story. Zero regrets. Worth every second.",
-  },
-  {
-    title: "Main Character Energy Award",
-    blurb: "Everyone else is just supporting cast and she knows it.",
-  },
-  {
-    title: "Most Likely To Cry Laughing In Public",
-    blurb: "No context needed. We've all been there with her.",
-  },
-  {
-    title: "Best Use Of A Group Chat",
-    blurb: "Single-handedly kept it alive through three timezone changes.",
-  },
-  {
-    title: "Most Convincing Last-Minute Apology",
-    blurb: "Still don't know how she talks her way out of everything.",
-  },
-  {
-    title: "Hall of Fame: Showing Up Anyway",
-    blurb: "Tired, late, underslept — never once actually absent.",
-  },
-];
 
 // ----------------------------------------------------------------------------
 // SPREAD 11 — LETTERS FROM ANCHITA AND SK
