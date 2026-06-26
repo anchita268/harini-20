@@ -191,11 +191,11 @@ export const diaryEditorialGrid = [
 // Spread 8 — Scrapbook freeform (stickers, notes, mixed photo sizes)
 export const diaryScrapbook = [
   { src: "/photos/scrap-01.jpg", caption: "BDAY!", rotate: -3 },
-  { src: "/photos/scrap-02.jpg", caption: "idk man", rotate: 2 },
+  { src: "/photos/scrap-02.jpg", caption: "...", rotate: 2 },
   { src: "/photos/scrap-03.jpg", caption: "....", rotate: -1 },
-  { src: "/photos/scrap-04.jpg", caption: "your honor, I rest my case", rotate: 4 },
-  { src: "/photos/scrap-05.jpg", caption: "unrelated but iconic", rotate: -4 },
-  { src: "/photos/scrap-06.jpg", caption: "filed under: chaos", rotate: 3 },
+  { src: "/photos/scrap-04.jpg", caption: "...", rotate: 4 },
+  { src: "/photos/scrap-05.jpg", caption: "...", rotate: -4 },
+  { src: "/photos/scrap-06.jpg", caption: "....", rotate: 3 },
 ]; // 🖼️ Freeform scrapbook strip — add more for a longer scroll.
 
 // ----------------------------------------------------------------------------
@@ -275,24 +275,8 @@ export const interview = {
       a: "FROM SK",
     },
     {
-      q: "One word to describe Harini?",
-      a: "Unpredictable. In the best, most exhausting, most loveable way.",
-    },
-    {
-      q: "What's a memory you'll never tell anyone else?",
-      a: "Absolutely not. Some lore stays in the vault.",
-    },
-    {
-      q: "Best trip you've taken together?",
-      a: "The one with four hours' planning notice and zero regrets. You know the one.",
-    },
-    {
-      q: "What's Harini like at 2am?",
-      a: "Somehow more coherent than most people at 2pm. Concerning, honestly.",
-    },
-    {
-      q: "What do you hope for her in this new decade?",
-      a: "Everything she's chasing, and the chaos to keep chasing it her own way.",
+      q: "HAPPY BIRTHDAY HARINI!!! It honestly feels like weve been friends since birth ive literally known you FOREVERRR. I am SO SO SO glad that bensy maam made u stay back that day to give me company while i packed up because I have no idea when and how else we wouldve become besties. I will ALWAYS cherish all the amazing and most random memories we have made over the years.. making paper stars for bunny’s card, YOGA PRACTICE! My brothers graduationn?! Going home after school, me using u as an excuse to stay longer when we went out ohmygodd we did SO MUCH random shit together. CHOIR ALSO!!! Having ice cream and noodles at seven eleven at the mrt and alll the times i brought u pasta and pav bhaji and waffles and the times we sat at the kindergarten playground during…",
+      a: "FROM ANCHITA",
     },
   ],
 };
@@ -309,10 +293,10 @@ export const birthdayMessages = [
     stamp: "<3",
   },
   {
-    from: "Friend Name",
-    message: "Happiest birthday to the loudest, funniest, most main-character person I know. Never change.",
+    from: "Shhreya",
+    message: "HAPPY BDAY JAY!!! I camt believe I only got to know u recently because it feels like I have known u forever. Have the best day and year ahead and keep being the funny, cool, beautiful and amazinf person that you are. love you 💗",
     photo: "/photos/postcard-02.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
-    stamp: "FROM THE GROUP CHAT",
+    stamp: "Shhreya",
   },
   {
     from: "Friend Name",
