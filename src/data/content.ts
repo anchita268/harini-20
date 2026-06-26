@@ -88,7 +88,7 @@ export const loreTimeline = [
     year: "2024",
     title: "FINALLY LEGAL",
     text: "Lots of drinking, our first time clubbing!! sleepovers and much more",
-    photo: "/photos/lore-2023.jpg", // 🖼️ PHOTO PLACEHOLDER
+    photo: "/photos/lore-legal.jpg", // 🖼️ PHOTO PLACEHOLDER
   },
   {
     year: "2024",
