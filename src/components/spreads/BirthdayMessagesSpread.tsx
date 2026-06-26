@@ -28,13 +28,14 @@ export default function BirthdayMessagesSpread() {
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-16">
           {birthdayMessages.map((msg, i) => (
             <Reveal
-              key={msg.from + i}
-              delay={(i % 2) * 0.1}
-              direction={i % 2 === 0 ? "left" : "right"}
+                key={msg.from + i}
+                delay={(i % 2) * 0.1}
+                direction={i % 2 === 0 ? "left" : "right"}
+                className={i === 0 ? "sm:col-span-2" : ""}
             >
               <div
                 className={`relative mx-auto flex flex-col overflow-hidden border border-ink/15 bg-cream shadow-lift sm:flex-row ${
-                  i === 0 ? "max-w-2xl" : "max-w-md"
+                  i === 0 ? "max-w-5xl w-full" : "max-w-md"
                 }`}
                 style={{ transform: `rotate(${i % 2 === 0 ? -1 : 1}deg)` }}
               >

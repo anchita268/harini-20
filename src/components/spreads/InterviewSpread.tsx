@@ -1,70 +1,48 @@
 // ============================================================================
-// SPREAD 12 — BIRTHDAY MESSAGES
+// SPREAD 11 — FRIENDSHIP INTERVIEW
+// Magazine Q&A format. Edit `interview` in src/data/content.ts.
 // ============================================================================
 
-import Photo from "@/components/Photo";
 import Folio from "@/components/Folio";
 import Reveal from "@/components/Reveal";
 import SectionLabel from "@/components/SectionLabel";
-import { birthdayMessages } from "@/data/content";
+import { interview } from "@/data/content";
 
-export default function BirthdayMessagesSpread() {
+export default function InterviewSpread() {
   return (
     <section
-      id="messages"
-      className="paper-grain relative w-full overflow-hidden bg-paper-dark px-4 py-20 sm:px-10 sm:py-28"
+      id="interview"
+      className="paper-grain relative w-full overflow-hidden bg-cream px-4 py-20 sm:px-10 sm:py-28"
     >
-      <div className="mx-auto max-w-6xl">
-        <Reveal className="mb-14 text-center sm:mb-20">
-          <SectionLabel className="mx-auto">POSTCARDS, BY AIRMAIL</SectionLabel>
+      <div className="mx-auto max-w-4xl">
+        <Reveal className="mb-12 sm:mb-16">
+          <SectionLabel>THE EXIT INTERVIEW (NOT REALLY)</SectionLabel>
           <h2 className="mt-4 font-display text-5xl italic text-ink sm:text-6xl">
-            Birthday Messages
+            BIRTHDAY MESSAGES
           </h2>
-          <p className="mx-auto mt-3 max-w-md font-body text-sm text-ink-soft sm:text-base">
-            A small stack of notes from the people who love her loudly.
+          <p className="mt-4 max-w-xl font-body text-sm text-ink-soft sm:text-base">
+            {interview.intro}
           </p>
         </Reveal>
 
-        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-16">
-          {birthdayMessages.map((msg, i) => (
-            <Reveal
-                key={msg.from + i}
-                delay={(i % 2) * 0.1}
-                direction={i % 2 === 0 ? "left" : "right"}
-                className={i === 0 ? "sm:col-span-2" : ""}
-            >
-              <div
-                className={`relative mx-auto flex flex-col overflow-hidden border border-ink/15 bg-cream shadow-lift sm:flex-row ${
-                  i === 0 ? "max-w-5xl w-full" : "max-w-md"
-                }`}
-                style={{ transform: `rotate(${i % 2 === 0 ? -1 : 1}deg)` }}
-              >
-                <div className="relative h-40 w-full flex-shrink-0 bg-paper-dark sm:h-auto sm:w-2/5">
-                  <Photo
-                    src={msg.photo}
-                    alt={`Postcard photo from ${msg.from}`}
-                    className="h-full w-full object-cover"
-                  />
-                  <span className="absolute right-2 top-2 rotate-3 border border-ink/40 px-1.5 py-0.5 font-mono text-[8px] uppercase tracking-wider text-ink/60">
-                    {msg.stamp}
-                  </span>
-                </div>
-
-                <div className="flex flex-1 flex-col justify-between p-5 sm:p-6">
-                  <p className="font-hand text-xl leading-snug text-ink-soft sm:text-2xl">
-                    {msg.message}
-                  </p>
-                  <p className="mt-4 text-right font-display text-sm italic text-rouge">
-                    — {msg.from}
-                  </p>
-                </div>
-              </div>
+        <div className="space-y-10 sm:space-y-14">
+          {interview.qa.map((item, i) => (
+            <Reveal key={item.q} delay={(i % 4) * 0.05} className="border-b border-ink/15 pb-8 sm:pb-10">
+              <p className="font-mono text-xs uppercase tracking-[0.3em] text-rouge">
+                Q{String(i + 1).padStart(2, "0")}
+              </p>
+              <h3 className="mt-3 font-display text-2xl italic leading-snug text-ink sm:text-3xl">
+                {item.q}
+              </h3>
+              <p className="mt-3 font-body text-base leading-relaxed text-ink-soft sm:text-lg">
+                {item.a}
+              </p>
             </Reveal>
           ))}
         </div>
       </div>
 
-      <Folio pageNumber="P. 22–23" section="MESSAGES" align="right" />
+      <Folio pageNumber="P. 20–21" section="INTERVIEW" />
     </section>
   );
 }
