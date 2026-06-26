@@ -224,8 +224,8 @@ export const twentyThings = [
   "I love how incredibly punctual you’ve been our whole life ",
   "I love your shopping spree to borrow clothes at my closet everytime you come over ",
   "You've never let me sit alone with a bad feeling for too long.",
-  "You ",
-  "Your",
+  "I love how you’re the best photographer ever and wouldn’t have anyone else take THE PICTURES for me ",
+  "Youre the funniest, most gorgeous person ever. thanks for telling us how to pose",
   "You hype up strangers like they're your best friend too.",
   "Twenty years of knowing you and you still surprise me weekly.",
 ];
