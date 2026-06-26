@@ -294,6 +294,7 @@ export const memoryWall = [
   "/photos/wall-09.jpg", "/photos/wall-10.jpg", "/photos/wall-11.jpg", "/photos/wall-12.jpg",
   "/photos/wall-13.jpg", "/photos/wall-14.jpg", "/photos/wall-15.jpg", "/photos/wall-16.jpg",
   "/photos/wall-17.jpg", "/photos/wall-18.jpg", "/photos/wall-19.jpg", "/photos/wall-20.jpg",
+  "/photos/wall-21.jpg",
 ]; // 🖼️ PHOTO PLACEHOLDERS — add/remove freely, the wall grid adjusts automatically.
 
 // ----------------------------------------------------------------------------
