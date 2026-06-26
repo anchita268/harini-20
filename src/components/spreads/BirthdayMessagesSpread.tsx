@@ -34,6 +34,11 @@ export default function BirthdayMessagesSpread() {
                 className="relative mx-auto flex max-w-md flex-col overflow-hidden border border-ink/15 bg-cream shadow-lift sm:flex-row"
                 style={{ transform: `rotate(${i % 2 === 0 ? -1 : 1}deg)` }}
               >
+              <div
+                className={`relative mx-auto flex flex-col overflow-hidden border border-ink/15 bg-cream shadow-lift sm:flex-row ${
+                i === 0 ? "max-w-2xl" : "max-w-md"}`}
+                style={{ transform: `rotate(${i % 2 === 0 ? -1 : 1}deg)` }}
+              ></div>
                 {/* Photo half */}
                 <div className="relative h-40 w-full flex-shrink-0 bg-paper-dark sm:h-auto sm:w-2/5">
                   {/* 🖼️ PHOTO PLACEHOLDER (optional) — replace or remove `photo` in content.ts */}
