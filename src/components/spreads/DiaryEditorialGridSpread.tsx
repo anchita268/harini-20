@@ -25,7 +25,7 @@ export default function DiaryEditorialGridSpread() {
             </h2>
           </div>
           <p className="max-w-xs font-body text-sm text-ink-soft sm:text-right">
-            pictures i am so proud to have taken
+            EVEN MORE PICTURES
           </p>
         </Reveal>
 

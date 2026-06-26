@@ -127,7 +127,7 @@ export const diaryPolaroids = [
 // Spread 5 — Film strip rolls (group photos in horizontal strips)
 export const diaryFilmStrips = [
   {
-    rollTitle: "ROLL 01 — SUMMER, UNDATED",
+    rollTitle: "ROLL 01 ",
     frames: [
       "/photos/film-01-1.jpg",
       "/photos/film-01-2.jpg",
@@ -141,7 +141,7 @@ export const diaryFilmStrips = [
     ],
   },
   {
-    rollTitle: "ROLL 02 — THE TRIP WE DON'T DISCUSS",
+    rollTitle: "ROLL 02 ",
     frames: [
       "/photos/film-02-1.jpg",
       "/photos/film-02-2.jpg",
@@ -150,7 +150,7 @@ export const diaryFilmStrips = [
     ],
   },
   {
-    rollTitle: "ROLL 03 — BIRTHDAYS, A RETROSPECTIVE",
+    rollTitle: "ROLL 03 ",
     frames: [
       "/photos/film-03-1.jpg",
       "/photos/film-03-2.jpg",

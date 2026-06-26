@@ -23,7 +23,7 @@ export default function DiaryScrapbookSpread() {
             Some more pictures...
           </h2>
           <p className="mt-3 max-w-md font-body text-sm text-ink-soft sm:text-base">
-            The evidence wall. Presented without further comment.
+            ...
           </p>
         </Reveal>
 
