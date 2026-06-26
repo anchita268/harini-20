@@ -297,10 +297,10 @@ export const interview = {
 // ----------------------------------------------------------------------------
 export const birthdayMessages = [
   {
-    from: "Me",
-    message: "Twenty years of you and I still laugh the hardest with you. Here's to the next twenty being even louder.",
+    from: "RIDDHI!",
+    message: "happy 20th birthday JAY!! I have known you for so many years now and it’s actually kinda crazy. I know we don’t see each other that often but when we do I know I’m gg to have a good time :3 I truly love being around you and making fun of SK. I also appreciate my fellow data science baddie (we can be unemployed together), I cannot wait to see you again queen. Have the best day ever and u better drink and dance ur heart out. Love you loads and see you soon unc :P",
     photo: "/photos/postcard-01.jpg", // 🖼️ PHOTO PLACEHOLDER (optional)
-    stamp: "AIRMAIL — BEST FRIEND CLASS",
+    stamp: "<3",
   },
   {
     from: "Friend Name",
