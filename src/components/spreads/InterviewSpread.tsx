@@ -18,7 +18,7 @@ export default function InterviewSpread() {
         <Reveal className="mb-12 sm:mb-16">
           <SectionLabel>THE EXIT INTERVIEW (NOT REALLY)</SectionLabel>
           <h2 className="mt-4 font-display text-5xl italic text-ink sm:text-6xl">
-            A Few Questions, Honestly Answered
+            BIRTHDAY MESSAGES
           </h2>
           <p className="mt-4 max-w-xl font-body text-sm text-ink-soft sm:text-base">
             {interview.intro}
@@ -29,7 +29,7 @@ export default function InterviewSpread() {
           {interview.qa.map((item, i) => (
             <Reveal key={item.q} delay={(i % 4) * 0.05} className="border-b border-ink/15 pb-8 sm:pb-10">
               <p className="font-mono text-xs uppercase tracking-[0.3em] text-rouge">
-                Q{String(i + 1).padStart(2, "0")}
+                {String(i + 1).padStart(2, "0")}
               </p>
               <h3 className="mt-3 font-display text-2xl italic leading-snug text-ink sm:text-3xl">
                 {item.q}
