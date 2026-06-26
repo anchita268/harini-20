@@ -164,10 +164,10 @@ export const diaryCollage = [
   { src: "/photos/collage-06.jpg", size: "lg", rotate: 1, top: "48%", left: "58%" },
   { src: "/photos/collage-07.jpg", size: "sm", rotate: -6, top: "75%", left: "20%" },
   { src: "/photos/collage-08.jpg", size: "sm", rotate: 5, top: "78%", left: "70%" },
-  { src: "/photos/collage-10.jpg", size: "sm", rotate: -5, top: "43%", left: "84%" },
   { src: "/photos/collage-09.jpg", size: "md", rotate: -5, top: "73%", left: "90%" },
   { src: "/photos/collage-11.jpg", size: "lg", rotate: 5, top: "15%", left: "96%" },
-  { src: "/photos/collage-12.jpg", size: "md", rotate: 3, top: "55%", left: "02%" }
+  { src: "/photos/collage-12.jpg", size: "md", rotate: 3, top: "55%", left: "02%" },
+  { src: "/photos/collage-10.jpg", size: "sm", rotate: -5, top: "43%", left: "84%" }
 
 ]; // 🖼️ size: "sm" | "md" | "lg" — top/left are % positions inside the collage canvas.
 
