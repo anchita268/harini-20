@@ -20,7 +20,7 @@ export default function DiaryScrapbookSpread() {
         <Reveal className="mb-14 sm:mb-20">
           <SectionLabel>PHOTO DIARY — PAGE FIVE</SectionLabel>
           <h2 className="mt-4 font-display text-5xl italic text-ink sm:text-6xl">
-            Exhibit A Through F
+            Some more pictures...
           </h2>
           <p className="mt-3 max-w-md font-body text-sm text-ink-soft sm:text-base">
             The evidence wall. Presented without further comment.
