@@ -187,7 +187,7 @@ export const diaryEditorialGrid = [
 
 // Spread 8 — Scrapbook freeform (stickers, notes, mixed photo sizes)
 export const diaryScrapbook = [
-  { src: "/photos/scrap-01.jpg", caption: "exhibit A", rotate: -3 },
+  { src: "/photos/scrap-01.jpg", caption: "BDAY!", rotate: -3 },
   { src: "/photos/scrap-02.jpg", caption: "exhibit B", rotate: 2 },
   { src: "/photos/scrap-03.jpg", caption: "the evidence keeps coming", rotate: -1 },
   { src: "/photos/scrap-04.jpg", caption: "your honor, I rest my case", rotate: 4 },
