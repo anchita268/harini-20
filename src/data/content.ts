@@ -118,9 +118,9 @@ export const diaryPolaroids = [
   { src: "/photos/diary-03.jpg", caption: "HHN", rotate: -1, tape: "dust" },
   { src: "/photos/diary-04.jpg", caption: "I AM SOBER!!!", rotate: 4, tape: "gold" },
   { src: "/photos/diary-05.jpg", caption: "#we miss aleia, our god-daughter", rotate: -2, tape: "denim" },
-  { src: "/photos/diary-06.jpg", caption: "we do NOT talk about this night", rotate: 3, tape: "rouge" },
-  { src: "/photos/diary-07.jpg", caption: "the iconic birthday dinner of 2023", rotate: -4, tape: "moss" },
-  { src: "/photos/diary-08.jpg", caption: "she's the main character, I'm just narrating", rotate: 1, tape: "dust" },
+  { src: "/photos/diary-06.jpg", caption: "batam!!", rotate: 3, tape: "rouge" },
+  { src: "/photos/diary-07.jpg", caption: "playing twister just to feel us up", rotate: -4, tape: "moss" },
+  { src: "/photos/diary-08.jpg", caption: "...", rotate: 1, tape: "dust" },
 ]; // 🖼️ Add more objects here for more polaroids — grid wraps automatically.
 
 // Spread 5 — Film strip rolls (group photos in horizontal strips)
