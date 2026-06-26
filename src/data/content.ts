@@ -262,11 +262,11 @@ export const harinAwards = [
 // SPREAD 11 — LETTERS FROM ANCHITA AND SK
 // ----------------------------------------------------------------------------
 export const interview = {
-  intro: "INTRO INTRO",
+  intro: "FROM THE TWO MOST IMPORTANT, STUNNING, FABULOUS, JAW-DROPPING FRIENDS IN THE WORLD <3",
   qa: [
     {
-      q: "How did you two meet?",
-      a: "Kindergarten. She took my crayon. I decided that meant we were destined to be friends, and I have not been wrong about anything since.",
+      q: "happy 20th birthday jayyy I love you so much and I can’t believe that I’m not there to celebrate the day with you :( we’ll meet very soon and I’ll make up for it pinky!! I hope you have the best night ever and I hope your 20s are the most fun time ever I can’t wait to make more memories with you around the world I’m so lucky to have someone on the other side of the world always wishing the best for me and caring for me so much to the point you stay and listen to my rants despite the hour of the day in sg, you’re genuinely one of my platonic soulmates fr I can’t wait to experience life with you and watch you go through a lot of fun and special experiences!! You genuinely light up any room you walk into and make everything so much better, I always get so happy when you achieve something or experience something that makes you really happy bc you’re so deserving of every bit of it and I can’t wait for us to one day grow old and live in the same country again and have unlimited sleepovers I miss being one hour away from you and being attached to you throughout school I will forever hold on to those memories and tell everyone I meet about them, you’re made Singapore so so special to me and the fun we had there is genuinely irreplaceable and so are you, I physically cannot find another jay anywhere and you better not find another SK. I will hunt you down and kill you and blow up the new bitch you replace me with istg but anywayssss have the best time everrrr I love you and miss you very very much",
+      a: "FROM SK",
     },
     {
       q: "One word to describe Harini?",
